@@ -1,0 +1,28 @@
+[
+    {
+      "id": 1,
+      "nombre": "Café Inglés",
+      "precio": 10,
+      "imagen": "img/cafe-ingles.jpg"
+    },
+    {
+      "id": 2,
+      "nombre": "Café Irlandés",
+      "precio": 20,
+      "imagen": "img/cafe-australiano.jpg"
+    },
+    {
+      "id": 3,
+      "nombre": "Café Helado",
+      "precio": 30,
+      "imagen": "img/cafe-helado.jpg"
+    },
+    {
+      "id": 4,
+      "nombre": "Escocés",
+      "precio": 40,
+      "imagen": "img/cafe-escoces.webp"
+    }
+  ]
+  
+  

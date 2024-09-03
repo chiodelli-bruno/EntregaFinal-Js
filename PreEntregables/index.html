@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El Ático - Cotizador</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <header>
+        <h1>El Ático - Cotizador de Productos</h1>
+    </header>
+
+    <main>
+        <section id="productos-container" class="productos"></section>
+
+        <aside>
+            <h2>Cotización</h2>
+            <ul id="cotizacion-lista"></ul>
+            <p id="total-cotizacion">Total: $0</p>
+            <button id="cotizar-btn">Cotizar</button>
+            <button id="recotizar-btn">Re-Cotizar</button>
+        </aside>
+    </main>
+
+    <footer>
+        <h2>Historial de Cotizaciones</h2>
+        <ul id="historial-cotizaciones"></ul>
+    </footer>
+</body>
+</html>
